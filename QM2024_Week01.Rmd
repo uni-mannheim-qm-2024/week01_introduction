@@ -1335,7 +1335,7 @@ The first lab session and this script should equip you with all the tools (and l
 
 Substantially, in your homework you will inspect a data set on US presidential elections. You will calculate some measures of central tendency and variability. Finally, you will produce some nice plots.
 
-It is best to get started with your homework as soon as possible (after it was handed out on Tuesday). 
+It is best to get started with your homework as soon as possible (after it was handed out on Friday). 
 
 Try to write the R Code first. We will provide you a `.Rmd` template to hand in your results.
 
