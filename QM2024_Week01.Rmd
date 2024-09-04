@@ -286,7 +286,7 @@ lucky_number
 The `class()` command lets us check the type of an object:
 
 ```{r class_command, eval = TRUE, error=TRUE}
-lucky_number <-
+lucky_number <- 
 
 class(lucky_number)
 ```
@@ -294,13 +294,13 @@ class(lucky_number)
 Let's see how this works live, this time with a character object:
 
 ```{r character_object, eval = TRUE, error=TRUE}
-firstname <- "" # This is a character object
+firstname <- "Domantas" # This is a character object
 
 firstname
 
 class(firstname)
 
-lastname <- ""
+lastname <- "Undzėnas"
 
 lastname
 ```
@@ -1083,8 +1083,8 @@ plot(
   y = weather_data$mean_temp,
   type = "p", # This explicitly says that we want points. You could also try "l".
   main = "Mean temperatures of German cities", # This adds a title to the plot
-  xlab = "Longitude (West - East)", # This labels the x-axis.
-  ylab = "Mean Temperature in 2021", # What does this do then?
+  xlab = "Longitude (South - North)", # This labels the x-axis.
+  ylab = "Mean Temperature in 2023", # What does this do then?
   las = 1, # This affects the tick labels of the y-axis.
   pch = 19, # Here we choose what symbols we want to plot.
   col = "black", # What color should the symbols have?
@@ -1127,8 +1127,8 @@ plot(
   y = weather_data$mean_temp,
   type = "p", # This explicitly says that we want points. You could also try "l".
   main = "Mean temperatures of German cities", # This adds a title to the plot
-  xlab = "Longitude (West - East)", # This labels the x-axis.
-  ylab = "Mean Temperature in 2021", # What does this do then?
+  xlab = "Longitude (South - North)", # This labels the x-axis.
+  ylab = "Mean Temperature in 2023", # What does this do then?
   las = 1, # This affects the tick labels of the y-axis.
   pch = 19, # Here we choose what symbols we want to plot.
   col = mannheim_color, # Instead of just black we now use the color vector.
@@ -1144,8 +1144,8 @@ plot(
   y = weather_data$mean_temp,
   type = "p", # This explicitly says that we want points. You could also try "l".
   main = "Mean temperatures of German cities", # This adds a title to the plot
-  xlab = "Longitude (West - East)", # This labels the x-axis.
-  ylab = "Mean Temperature in 2021", # What does this do then?
+  xlab = "Longitude (South - North)", # This labels the x-axis.
+  ylab = "Mean Temperature in 2023", # What does this do then?
   las = 1, # This affects the tick labels of the y-axis.
   pch = 19, # Here we choose what symbols we want to plot.
   col = mannheim_color, # Instead of just black we now use the color vector.
@@ -1166,8 +1166,8 @@ plot(
   y = weather_data$mean_temp,
   type = "p", # This explicitly says that we want points. You could also try "l".
   main = "Mean temperatures of German cities", # This adds a title to the plot
-  xlab = "Longitude (West - East)", # This labels the x-axis.
-  ylab = "Mean Temperature in 2021", # What does this do then?
+  xlab = "Longitude (South - North)", # This labels the x-axis.
+  ylab = "Mean Temperature in 2023", # What does this do then?
   las = 1, # This affects the tick labels of the y-axis.
   pch = 19, # Here we choose what symbols we want to plot.
   col = mannheim_color, # Instead of just black we now use the color vector.
